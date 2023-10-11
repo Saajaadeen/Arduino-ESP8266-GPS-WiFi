@@ -12,12 +12,14 @@ When wiring the BN-220 to the ESP8266 you will only need to solder a total of fo
 
 Wiring:
   - BN-220 White (TX) > ESP8266 D2 (RX)
-      - The gps will transmit the data through the TX wire and the esp8266 needs to receive that data through the RX pin.
+      - The gps will transmit the data through the TX wire and the ESP8266 needs to receive that data through the RX pin.
   - BN-220 Green (RX) > ESP8266 D1 (TX)
-      - The gps will receive data being transmitted from the esp8266 so the these two pins need to connect as listed.
+      - The gps will receive data being transmitted from the ESP8266 so the these two pins need to connect as listed.
   - BN-220 Black (GND) > ESP8266 GND
       - Any pin on the ESP8266 labeled GND will be fine to the connect the BN-220 to.
   - BN-220 Red (VCC) > ESP8266 3V3 (3.3V)
       - The BN-220 can operate on the range of 3.0-5.5v and since this board can supply 3.3v it will be capable of powering the GPS unit.
 
 <center><h1>Software</h1></center>
+
+Im using vscode with platformio installed running linux you can by default use the arduino IDE and not run into alot of problems but that is up to you also im using C++ as the langauge.
