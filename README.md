@@ -23,3 +23,18 @@ Wiring:
 <center><h1>Software</h1></center>
 
 Im using vscode with platformio installed running linux you can by default use the arduino IDE and not run into alot of problems but that is up to you also im using C++ as the langauge.
+
+<center><h1>Libraries</h1></center>
+
+The libraries used in this project are as follows,
+
+- Arduino.h
+- TinyGPS++.h
+- SoftwareSerial.h
+- ESP8266WiFi.h
+
+The only library you need to install or add to your project per platformio is "TinyGPS++" which can be installed by 'PlatformIO home in VSCode > Libraries > Search "TinyGPSPlus" > click "add to library"'
+
+<center><h1>Author</h1></center>
+
+This project was created by Saajaadeen M. Jeffries
