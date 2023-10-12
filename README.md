@@ -38,3 +38,7 @@ The libraries used in this project are as follows,
 - ESP8266WiFi.h
 
 The only library you need to install or add to your project per platformio is "TinyGPS++" which can be installed by 'PlatformIO home in VSCode > Libraries > Search "TinyGPSPlus" > click "add to library"'
+
+<center><h1>Authors</h1></center>
+
+This project was created and maintained by Saajaadeen M. Jeffries
