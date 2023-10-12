@@ -1,4 +1,4 @@
-<center><h1>ESP8266 + BN-220 GPS Tracker</h1></center>
+<center><h1>Airfield Management Operations- ESP8266 + BN-220 GPS Tracker</h1></center>
 
 This ESP8266 can be used to build a compact GPS logger that tracks location data (LAT/LONG) as well as timestamps in any specified intervals.
 
@@ -38,7 +38,3 @@ The libraries used in this project are as follows,
 - ESP8266WiFi.h
 
 The only library you need to install or add to your project per platformio is "TinyGPS++" which can be installed by 'PlatformIO home in VSCode > Libraries > Search "TinyGPSPlus" > click "add to library"'
-
-<center><h1>Author</h1></center>
-
-This project was created by Saajaadeen M. Jeffries
