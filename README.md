@@ -15,11 +15,11 @@ All the hardware being used in this project is a [Hiletgo ESP8266](https://a.co/
 When wiring the BN-220 to the ESP8266 you will only need to solder a total of four wires GND, TX, RX, and VCC or (3.3-5v), The wiring will go as follows with explainations why.
 
 **Wiring:**
-- BN-220 White (TX) -> ESP8266 D2 (RX)
-- BN-220 Green (RX) -> ESP8266 D1 (TX)
-- BN-220 Black (GND) -> ESP8266 GND
-- BN-220 Red (VCC) -> ESP8266 3V3 (3.3V)
-- 
+- `BN-220 (TX)`  -> `ESP8266 D2  (RX)`
+- `BN-220 (RX)`  -> `ESP8266 D1  (TX)`
+- `BN-220 (GND)` -> `ESP8266     (GND)`
+- `BN-220 (VCC)` -> `ESP8266 3V3 (3.3V)`
+  
 <center><h1>Authors</h1></center>
 
 This project was created and maintained by Saajaadeen M. Jeffries
